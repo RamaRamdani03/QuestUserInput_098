@@ -106,7 +106,7 @@ fun MainScreen(
         }) {Text("Simpan")
         }
 
-        Card (modifier.size(height = 200.dp, width = 300.dp)) {
+        Card (modifier.size(height = 250.dp, width = 300.dp)) {
             CardSection(judulParam = "Nama", isiParam = namaUser)
             CardSection(judulParam = "Jenis Kelamin", isiParam = selectedGenderUser)
             CardSection(judulParam = "Email", isiParam = emailUser)
